@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link-active {
+      @apply flex  justify-center items-center xl:justify-start  text-fuchsia-700;
+    }
+    .link {
+      @apply flex items-center justify-center  xl:justify-start text-gray-800 dark:text-white hover:text-fuchsia-700 dark:hover:text-fuchsia-700  transition duration-300 ease-in-out;
+    }
+    .icon {
+      @apply hidden xl:block xl:ml-4 font-bold;
+    }
+  }

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist.css">
+</head>
+<body class="bg-white dark:bg-slate-900">
+    <!-- Container -->
+    <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+        <!-- Left -->
+        <div class="xl:w-1/5 w-20 h-full flex flex-col xl:pr-4">
+            <!--logo-->
+            <a href="" class="link-active  my-2 hover:text-blue-500">
+                <i class="fa-brands fa-twitter text-4xl	"></i>
+            </a>
+            <!--nav-->
+            <nav class="mt-5">
+                <a href="" class="link-active mb-8 hover:text-blue-500">
+                    <i class="fa-solid fa-house text-xl"></i>
+                    <span class="icon">Home</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-hashtag text-xl"></i>
+                    <span class="icon">Explore</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-bell text-xl"></i>
+                    <span class="icon">Notifications</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-envelope text-xl"></i>
+                    <span class="icon">Messages</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-bookmark text-xl"></i>
+                    <span class="icon">Bookmarks</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-list-ul text-xl"></i>
+                    <span class="icon">Lists</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-user text-xl"></i>
+                    <span class="icon">Profile</span>
+                </a>
+                <a href="" class="link mb-8">
+                    <i class="fa-solid fa-ellipsis text-xl"></i>
+                    <span class="icon">More</span>
+                </a>
+                </nav>
+            <!-- Button -->
+            <a href=""
+        class="mx-auto w-11 h-11 xl:w-full flex items-center justify-center bg-fuchsia-700  rounded-full text-white font-bold  hover:bg-fuchsia-500">
+        <i class="fa-solid fa-feather text-xl block xl:hidden "></i>
+        <span class="icon xl:ml-0 ">Tweet</span>
+        </a>
+
+        <!-- User -->
+    <div class="w-14 xl:w-full mx-auto mt-auto flex  justify-between mb-2 rounded-full p-2 cursor-pointer ">
+        <img class="w-10 h-10 rounded-full"
+        src="WhatsApp Image 2024-03-16 at 2.13.47 PM.jpeg" alt="" />
+        <div class="hidden xl:flex flex-col">
+        <h4 class="text-gray-800 dark:text-white font-bold text-sm">Reham</h4>
+        <p class="text-gray-400 text-sm">@rehamahmed</p>
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-xs hidden xl:flex items-center xl:ml-4  text-gray-800 dark:text-white">
+        </i>
+
+    </div>
+        </div>
+        <!-- End Left -->
+    
+        <!-- Middle -->
+        <div class="w-full xl:w-1/2 h-screen overflow-y-auto">
+            <!--  Header -->
+    <div
+    class="flex justify-between items-center border px-4 py-3 sticky top-0 bg-white dark:bg-gray-800  border-gray-200 dark:border-gray-700">
+    <h4 class="text-gray-800 dark:text-gray-100 font-bold  hover:text-blue-500">
+        Home
+    </h4>
+    <i class="fa-brands fa-twitter  text-lg  text-fuchsia-700 hover:text-blue-500"></i>
+    </div>
+    <!-- Tweet Box -->
+    <div class=" border pb-3 border-gray-200 dark:border-gray-200 ">
+        <div class="flex p-4 ">
+        <img class="w-10 h-10 rounded-full "
+            src="./WhatsApp Image 2024-03-16 at 2.13.47 PM.jpeg" alt="" />
+        <textarea class="p-2 dark:text-white text-gray-900 w-full h-16 bg-transparent focus:outline-none resize-none"
+            placeholder="What's happening?"></textarea>
+        </div>
+        <div class="flex p-4 w-full">
+          <a href="" class="text-fuchsia-700 rounded-full p-2  hover:bg-fuchsia-500">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="text-fuchsia-700 rounded-full p-2  hover:bg-fuchsia-500">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="text-fuchsia-700 rounded-full p-2  hover:bg-fuchsia-500">
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="text-fuchsia-700 rounded-full p-2  hover:bg-fuchsia-500">
+
+            <i class="fa-solid fa-image text-lg "></i>
+          </a>
+          <a href="" class="text-fuchsia-700 rounded-full p-2  hover:bg-fuchsia-500">
+
+            <i class="fa-solid fa-image text-lg"></i>
+          </a>
+          <a href="" class="font-bold bg-fuchsia-700 text-white rounded-full  px-6 ml-auto mr-1 flex items-center hover:bg-fuchsia-500">
+            Tweet
+        </a>
+        </div>
+    </div>
+    <!-- Show tweets -->
+    <div
+        class="text-center py-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-200 cursor-pointer  text-fuchsia-700 text-sm  hover:text-pink-300">
+        Show 9 Tweets
+    </div>
+    <!-- Tweet -->
+    <div class="border border-gray-200 dark:border-gray-200 cursor-pointer pb-4 ">
+        <div class="flex p-4 pb-0">
+          <img class="h-9 w-9 rounded-full "
+            src="./WhatsApp Image 2024-03-16 at 2.13.47 PM.jpeg" alt="" />
+          <p class="ml-2 flex flex-shrink-0 items-center font-medium text-gray-800 dark:text-white">
+            reham
+            <span class="ml-1 text-sm leading-5  text-gray-400 ">
+              @rehamahmed
+            </span>
+          </p>
+        </div>
+        <div class="pl-8 xl:pl-16 pr-4">
+            <a href="#" class="text-fuchsia-700 hover:text-black">#very right</a>
+        <img class="rounded-2xl border border-gray-600 my-3 mr-2 w-full"
+            src="./img.jfif" alt="" />
+        <div class="flex items-center w-full justify-between">
+            <div
+            class=" flex items-center dark:text-white text-xs text-gray-400  hover:text-fuchsia-700 dark:hover:text-fuchsia-700">
+            <i class="fa-solid fa-comment mr-2 text-lg"></i>
+            3
+            </div>
+            <div
+            class=" flex items-center dark:text-white text-xs text-gray-400 hover:text-green-500 dark:hover:text-green-500  ">
+            <i class="fa-solid fa-retweet mr-2 text-lg"></i>
+            1
+            </div>
+            <div
+            class=" flex items-center dark:text-white text-xs text-gray-400 hover:text-red-400 dark:hover:text-red-400">
+            <i class="fa-solid fa-heart mr-2 text-lg"></i>
+            7
+            </div>
+            <div
+            class=" flex items-center dark:text-white text-xs text-gray-400  hover:text-fuchsia-700 dark:hover:text-fuchsia-700">
+            <i class="fa-solid fa-share mr-2 text-lg"></i>
+            </div>
+        </div>
+        </div>
+    </div>
+        </div>
+        <!--end middle-->
+
+        <!-- Right -->
+    <div class="hidden w-[30%] xl:block ">
+
+        <!-- Search -->
+      <div class="relative m-2">
+        <i class="fa-solid fa-magnifying-glass text-gray-600 absolute left-4 top-1/2 -translate-y-1/2"></i>
+        <input type="text"
+          class="w-full bg-gray-200 dark:bg-gray-800 border-gray-200 dark:border-gray-800 text-gray-100  focus:outline-none  font-normal h-9  pl-12 text-sm rounded-full"
+          placeholder="Search Twitter" />
+      </div>
+      <div class="bg-gray-50 dark:bg-gray-700 rounded-2xl m-2">
+        <h3 class="text-gray-900 dark:text-white font-bold p-3 border-b border-gray-200 dark:border-gray-200">
+          What’s happening
+        </h3>
+        <div class="p-3 border-b border-gray-200 dark:border-gray-200">
+          <h4 class="font-bold  text-gray-800 dark:text-white">
+            #Palestine
+          </h4>
+          <p class="text-xs text-gray-400">30K Tweets</p>
+        </div>
+        <div class="p-3 border-b border-gray-200 dark:border-gray-200">
+          <h4 class="font-bold  text-gray-800 dark:text-white">
+            #Palestine
+          </h4>
+          <p class="text-xs text-gray-400">30K Tweets</p>
+        </div>
+        <div class="p-3 border-b border-gray-200 dark:border-gray-200">
+          <h4 class="font-bold  text-gray-800 dark:text-white">
+            #Palestine
+          </h4>
+          <p class="text-xs text-gray-400">30K Tweets</p>
+        </div>
+        <div class="text-fuchsia-700 p-3 cursor-pointer hover:text-pink-300">
+          Show more
+        </div>
+      </div>
+
+      <!-- Who to follow  -->
+      <div class="bg-gray-50 dark:bg-dim-700 rounded-2xl m-2">
+        <h3 class="text-gray-900 dark:text-white font-bold p-3 border-b border-gray-200 dark:border-dim-200">
+          Who to follow
+        </h3>
+        <div class="p-5 border-b border-gray-200 dark:border-dim-200 flex justify-between items-center">
+          <div class="flex ">
+            <img class="w-10 h-10 rounded-full"
+              src="./WhatsApp Image 2024-03-16 at 2.13.47 PM.jpeg" alt="" />
+            <div class=" ml-2  text-sm ">
+              <h5 class="text-gray-900 dark:text-white font-bold">
+                rehamahmed
+              </h5>
+              <p class="text-gray-400 ">@rehamahmed</p>
+            </div>
+          </div>
+          <a href="#" class="text-xs font-bold text-fuchsia-700 px-4 py-1 rounded-full border-2 border-fuchsia-700 hover:text-black">Follow</a>
+        </div>
+        <div class="p-5 border-b border-gray-200 dark:border-dim-200 flex justify-between items-center">
+          <div class="flex ">
+            <img class="w-10 h-10 rounded-full"
+              src="./WhatsApp Image 2024-03-16 at 2.13.47 PM.jpeg" alt="" />
+            <div class=" ml-2  text-sm ">
+              <h5 class="text-gray-900 dark:text-white font-bold">
+                rehamahmed
+              </h5>
+              <p class="text-gray-400 ">@rehamahmed</p>
+            </div>
+          </div>
+          <a href="#" class="text-xs font-bold text-fuchsia-700 px-4 py-1 rounded-full border-2 border-fuchsia-700 hover:text-black">Follow</a>
+        </div>
+        <div class="p-5 border-b border-gray-200 dark:border-gray-200 ">
+          <div class="flex gap-x-4 animate-pulse">
+            <div class="rounded-full bg-gray-400 h-12 w-12"></div>
+            <div class="flex-1  space-y-2 py-1">
+              <div class="h-4 bg-gray-400 rounded w-5/6"></div>
+              <div class="h-4 bg-gray-400 rounded w-3/4"></div>
+              <div class="h-4 bg-gray-400 rounded w-4/6"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-fuchsia-700  p-3 cursor-pointer  hover:text-pink-300">
+          Show more
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+</div>
+</body>
+</html>
